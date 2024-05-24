@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Employee Registration</title>
+  <link rel="stylesheet" href="external_registration.css">
+</head>
+<body>
+  <div class="container">
+    <h2>New Employee Registration</h2>
+    <form action="#" method="POST">
+      <div class="form-group">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div class="form-group">
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="department">Department:</label>
+        <select id="department" name="department" required>
+          <option value="">Select Department</option>
+          <option value="hr">Human Resources</option>
+          <option value="it">Information Technology</option>
+          <option value="sales">Sales</option>
+          <option value="finance">Finance</option>
+          <option value="marketing">Marketing</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="position">Position:</label>
+        <input type="text" id="position" name="position" required>
+      </div>
+      <div class="form-group">
+        <label for="startdate">Start Date:</label>
+        <input type="date" id="startdate" name="startdate" required>
+      </div>
+      <div class="form-group">
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+      </div>
+      <div class="form-group">
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" required>
+      </div>
+      <div class="form-group">
+        <label for="zipcode">Zip Code:</label>
+        <input type="text" id="zipcode" name="zipcode" required>
+      </div>
+      <div class="form-group">
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required>
+      </div>
+      <div class="form-group">
+        <label for="salary">Expected Salary:</label>
+        <input type="number" id="salary" name="salary" required>
+      </div>
+      <div class="form-group">
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+      </div>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>
